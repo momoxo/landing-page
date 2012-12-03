@@ -20,7 +20,23 @@ momoxo（ももぞー）とは、オープンソースのウェブサイト／�
 
 管理画面から優秀な無料／有料の機能やテーマの追加が簡単に素早く行うことが可能です。
 
+[より詳細な情報…](/#)
+
 ### 仕様
+
+仕様...
+
+### Quick install
+
+#### ワンライナーインストーラ (sh, bash)
+
+下記の様なワンライナーでインストールできるインストーラを用意する予定。
+
+```cd [DOCUMENT ROOT]```
+
+```T="../xoops_trust_path";curl -kL github.com/momoxo/installer/raw/master/install.sh|sed "s#<T>#$T#"|sh```
+
+[より詳細な情報…](/#)
 
 #### 動作環境
 |ミドルウェア|バージョン|
@@ -38,3 +54,4 @@ momoxo（ももぞー）とは、オープンソースのウェブサイト／�
 |Safari|最新版|
 |Internet Explorer|IE9|
 
+[より詳細な情報…](/#)
