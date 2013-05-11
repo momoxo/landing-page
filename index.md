@@ -7,6 +7,7 @@ title: momoxo :A New XOOPS Cube distribution
 
 
 momoxoは新しいXOOPS Cubeの開発コードネームです。
+
 momoxo is the name of New XOOPS Cube Codenamed.
 
 XOOPS Cubeは革新的なポータルコミュニティサイトシステムです。一般的なウェブサーバ及び、主要なブラウザに対応しています。国際的で拡張性の高いサイトを安全に構築できます。オープンソースで提供され、目的問わず無料で使用することができます。
