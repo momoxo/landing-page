@@ -1,92 +1,238 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="assets/stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="assets/stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="assets/stylesheets/print.css" media="print" />
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-	<title>momoxo :A New XOOPS Package</title>
-  </head>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
+}
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+}
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+th {
+	padding: 5px 10px;	
+}
 
-  <body>
-    <div id="container">
-      <div class="inner">
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>momoxo</title>
 
-        <header>
-          <img id="logo" src="assets/images/momoxo.png" alt="momoxo logo">
-          <h1>momoxo</h1>
-          <h2>A New XOOPS Package</h2>
-        </header>
-        <hr>
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/momoxo/momoxo/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/momoxo/momoxo/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/momoxo/momoxo" id="view-on-github" class="button" target="_blank"><span>View on GitHub</span></a>
-        </section>
-        <hr>
-        <section id="main_content">
-          <h1 id='momoxo'>&nbsp;</h1>
+</head>
+<body>
+<hr />
+
+<p>layout: default</p>
+
+<h2>title: momoxo :A New XOOPS Cube distribution</h2>
+
+<h1>momoxo</h1>
+
+<p>momoxoは新しいXOOPS Cubeの開発コードネームです。</p>
+
+<p>XOOPS Cubeは革新的なポータルコミュニティサイトシステムです。一般的なウェブサーバと、主要なブラウザに対応しています。国際的で拡張性の高いサイトを安全に構築できます。オープンソースで提供され、目的問わず無料で使用することができます。</p>
+
+<h2>特徴</h2>
+
+<ul>
+<li>Baseレイヤーを取り除き、よりシンプルな構造に。</li>
+<li>コアのソースをよりオブジェクト指向の形態にするため、1 Class, 1 file に変換。</li>
+<li>古く使われていない Class を整理。</li>
+<li>素早くインストールできるインストーラ。</li>
+<li>シンプルなデフォルトテーマ。</li>
+<li>使いやすい静的コンテンツ作成モジュールを同梱。</li>
+<li>管理画面からモジュール、テーマをインストール可能。</li>
+</ul>
 
 
-<p>momoxoは革新的なポータルコミュニティサイトシステムです。一般的なウェブサーバと、主要なブラウザに対応しています。国際的で拡張性の高いサイトを安全に構築できます。オープンソースで提供され、目的問わず無料で使用することができます。</p>
+<h2>仕様</h2>
 
-<h2 id='id31'>特徴</h2>
+<h4>動作環境</h4>
 
-<h3 id='new_xoops_cube'>New XOOPS Cube</h3>
+<table>
+<thead>
+<tr>
+<th>ミドルウェア</th>
+<th>バージョン</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Apache</td>
+<td> 2.2 or Later</td>
+</tr>
+<tr>
+<td>PHP</td>
+<td> 5.3 or Later</td>
+</tr>
+<tr>
+<td>MySQL </td>
+<td>5.5 or Later</td>
+</tr>
+</tbody>
+</table>
 
-<p><strong>momoxo project</strong> は <a href='http://xoopscube.jp/'>XOOPS Cube</a> から fork した新しい XOOPS を目指すプロジェクトです。 これまでのXOOPS Cubeにおいて下位互換性のために必須であったBase Module である legacy を廃止しました。 momoxo は新しいウェブ標準に対応し易く、また、モジュールの開発をし易くするために legacy の大部分をコアプログラムの中に取り込みました。</p>
 
-<h3 id='id32'>容易な拡張</h3>
+<h4>ターゲットブラウザ</h4>
 
-<p>管理画面から優秀な無料／有料の機能やテーマの追加が簡単に素早く行うことが可能です。</p>
+<table>
+<thead>
+<tr>
+<th>ブラウザ</th>
+<th>バージョン</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Chrome</td>
+<td>最新版</td>
+</tr>
+<tr>
+<td>Firefox</td>
+<td>最新版</td>
+</tr>
+<tr>
+<td>Opera</td>
+<td>最新版</td>
+</tr>
+<tr>
+<td>Safari</td>
+<td>最新版</td>
+</tr>
+<tr>
+<td>Internet Explorer</td>
+<td>IE9以上</td>
+</tr>
+</tbody>
+</table>
 
-<p><a href='/#'>より詳細な情報…</a></p>
-
-<h3 id='id33'>仕様</h3>
-
-<p>仕様&#8230;</p>
-
-<h3 id='quick_install'>Quick install</h3>
-
-<h4 id='_sh_bash'>ワンライナーインストーラ (sh, bash)</h4>
-
-<p>下記の様なワンライナーでインストールできるインストーラを用意する予定。</p>
-
-<p><code>cd [DOCUMENT ROOT]</code></p>
-
-<p><code>T=&quot;../xoops_trust_path&quot;;curl -kL github.com/momoxo/installer/raw/master/install.sh|sed &quot;s#&lt;T&gt;#$T#&quot;|sh</code></p>
-
-<p><a href='/#'>より詳細な情報…</a></p>
-
-<h4 id='id34'>動作環境</h4>
-<table><thead><tr><th>ミドルウェア</th><th>バージョン</th></tr></thead><tbody><tr><td style='text-align: left;'>Apache</td><td style='text-align: left;'>2.2 or Later</td>
-</tr><tr><td style='text-align: left;'>PHP</td><td style='text-align: left;'>5.3 or Later</td>
-</tr><tr><td style='text-align: left;'>MySQL</td><td style='text-align: left;'>5.5 or Later</td>
-</tr></tbody></table>
-<h4 id='id35'>ターゲットブラウザ</h4>
-<table><thead><tr><th>ブラウザ</th><th>バージョン</th></tr></thead><tbody><tr><td style='text-align: left;'>Chrome</td><td style='text-align: left;'>最新版</td>
-</tr><tr><td style='text-align: left;'>Firefox</td><td style='text-align: left;'>最新版</td>
-</tr><tr><td style='text-align: left;'>Opera</td><td style='text-align: left;'>最新版</td>
-</tr><tr><td style='text-align: left;'>Safari</td><td style='text-align: left;'>最新版</td>
-</tr><tr><td style='text-align: left;'>Internet Explorer</td><td style='text-align: left;'>IE9</td>
-</tr></tbody></table>
-<p><a href='/#'>より詳細な情報…</a></p>
-        </section>
-
-        <footer>
-          Community Site <a href="http://community.momoxo.org" target="_blank">momoxo.org</a><br>
-          This page is maintained by <a href="https://github.com/momoxo/momoxo">momoxo Project Team</a><br>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.<br>
-          momoxo documents 1.0 α
-        </footer>
-
-        
-      </div>
-    </div>
-  </body>
+</body>
 </html>
