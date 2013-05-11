@@ -3,7 +3,7 @@ layout: default
 title: momoxo :A New XOOPS Cube distribution
 ---
 
-# momoxo
+# momoxo xoops
 
 
 momoxoは新しいXOOPS Cubeの開発コードネームです。
