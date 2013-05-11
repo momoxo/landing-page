@@ -23,6 +23,7 @@ XOOPS Cube is a portal community site system innovative. Supported general web s
 * 使いやすい静的コンテンツ作成モジュールを同梱(Pages Module)。
 * 管理画面からモジュール、テーマを Install 可能。
 
+
 * Remove the Base layer, the structure simpler.
 * Installer that you can Install quickly.
 * Organize the Class that has not been used for a long time.
